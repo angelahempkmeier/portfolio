@@ -48,17 +48,25 @@ body {
 }
 
 .header-menu ul {
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-menu ul li {
-    text-decoration: none;
     list-style: none;
     display: inline;
+    margin: 5px;
 }
 
 .header-menu ul li a {
+    padding: 6px 15px;
     text-decoration: none;
+}
+
+.header-menu ul li a:hover {
+    background-color: #FFFCF2;
+    border-radius: 5%;
 }
 
 /*MAIN*/
