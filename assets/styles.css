@@ -5,16 +5,24 @@ body {
     background-image: url("daisies.png");
     background-color: #FFFCF2;
     width: 100%;
+    /*position: absolute;*/
+    box-sizing: border-box;
+}
 
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    /*position: relative;*/
 }
 
 /*HEADER*/
 
-.container-header{ 
+.container-header{
+    position: relative; 
     background-color: #D8D4C8;
     display: flex;
-    width: 80%;
     height: 100px;
+    width: 80%;
     border-radius: 10px;
     margin: 0 auto;
     flex-direction: column;
@@ -53,7 +61,6 @@ body {
     text-decoration: none;
 }
 
-
 /*MAIN*/
 
 #main {
@@ -63,5 +70,29 @@ body {
     background-color: #B28D6C;
     border-radius: 1%;
     margin: 20px auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
 
+}
+
+.main-content {
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.main-content-myself {
+    width: 40%;
+    align-self: center;
+}
+
+.eppur-si-muove {
+    font-size: 14px;
+}
+
+.main-img {
+    justify-content: flex-end;
+    width: 100px;
+    height: 100px;
 }
