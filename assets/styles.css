@@ -1,57 +1,55 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     background-image: url("daisies.png");
-    background-color: #FFFCF2;
     width: 100%;
-    /*position: absolute;*/
-    box-sizing: border-box;
 }
 
-.container-principal {
-    display: flex;
-    flex-direction: column;
-    /*position: relative;*/
-}
 
-.width-80{
-    width: 80%;
-}
 /*HEADER*/
 
 .container-header{
-    position: relative; 
     background-color: #D8D4C8;
-    display: flex;
     height: 100px;
     width: 80%;
     border-radius: 10px;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
 }
 
 .header-name {
+    display: flex;
     font-family: 'Cairo Play', cursive;
     font-size: 20px;
-    border-bottom: 0.5px solid  #FFFCF2;
+    height: 50%;
+    border-bottom: 0.2px solid #141211;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-menu-item {
-    align-items: center;
-    margin: auto;
-    color: #141211;
+
+.header-menu{
+        
 }
+
 
 .header-menu h3{
     display: none;
 }
 
-.header-menu ul {
+.header-menu-list {
     display: flex;
+    
+}
+
+.header-menu ul {
+    margin: 10px; /*eu gostaria de centralizar de uma forma diferente*/
     justify-content: center;
     align-items: center;
 }
@@ -59,51 +57,70 @@ body {
 .header-menu ul li {
     list-style: none;
     display: inline;
-    margin: 5px;
+    margin: auto;
 }
 
 .header-menu ul li a {
-    padding: 6px 15px;
     text-decoration: none;
+    color: #141211;
+    
 }
 
+/*
+.header-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+/*
 .header-menu ul li a:hover {
     background-color: #FFFCF2;
     border-radius: 5%;
 }
+*/
+
+
+/*USO COMUM*/
+.interface-container{
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 996px;
+}
+
 
 /*MAIN*/
 
 #main {
-    display: flex;
-    width: 80%;
-    height: 500px;
+    height: 400px;
     background-color: #B28D6C;
-    border-radius: 1%;
-    margin: 20px auto;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
 
 }
 
-.main-content {
-    flex-direction: row;
-    justify-content: space-around;
+.about-me {
+    height: 400px;
+    background-color: #846F5E;
+}
+
+.projects {
+    height: 400px;
+    background-color: #D8D4C8;
+}
+
+.blog {
+    height: 400px;
+    background-color: #B28D6C;
+}
+
+.curriculum {
+    height: 400px;
+    background-color: #846F5E;
 
 }
 
-.main-content-myself {
-    width: 40%;
-    align-self: center;
+.contact {
+    height: 400px;
+    background-color: #D8D4C8;
 }
 
-.eppur-si-muove {
-    font-size: 14px;
-}
-
-.main-img {
-    justify-content: flex-end;
-    width: 100px;
-    height: 100px;
-}
