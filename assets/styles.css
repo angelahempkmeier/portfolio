@@ -34,7 +34,8 @@ body {
 }
 
 
-.header-menu{    
+.header-menu{  
+    /*ideia: colocar uma altura na nav, dai centralizar os itens*/  
 }
 
 
@@ -48,8 +49,7 @@ body {
 }
 
 .header-menu ul {
-    /*margin: 10px; /*eu gostaria de centralizar de uma forma diferente*/
-    height: 40px; /*gostaria de centralizar de forma diferente*/
+    height: 40px;
     justify-content: center;
     align-items: center;
     /*position: absolute;*/
@@ -60,7 +60,7 @@ body {
     list-style: none;
     /*display: inline;*/
     margin: auto;
-    
+
 }
 
 .header-menu ul li a {
@@ -69,19 +69,15 @@ body {
     
 }
 
-/*
-.header-menu-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
-/*
 .header-menu ul li a:hover {
-    background-color: #FFFCF2;
-    border-radius: 5%;
+    color: #846F5E;
 }
-*/
+
+.header-menu ul li:hover {
+    /*quero aumentar o tamanho do container*/
+    border-radius: 10%;
+    background-color: #474443;
+}
 
 
 /*USO COMUM*/
