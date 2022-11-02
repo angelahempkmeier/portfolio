@@ -34,8 +34,7 @@ body {
 }
 
 
-.header-menu{  
-    /*ideia: colocar uma altura na nav, dai centralizar os itens*/  
+.header-menu{    
 }
 
 
@@ -91,11 +90,17 @@ body {
 
 /*MAIN*/
 
-#main {
+.main {
     height: 400px;
     background-color: #B28D6C;
+    display: flex;
 
 }
+
+.main-content {
+    padding: 20px;
+}
+
 
 .about-me {
     height: 400px;
