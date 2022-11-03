@@ -102,6 +102,14 @@ body {
 .main-top{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-content{
+    text-align: center;
 }
 
 .main-bottom{
