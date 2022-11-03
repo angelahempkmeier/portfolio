@@ -94,7 +94,24 @@ body {
     height: 400px;
     background-color: #B28D6C;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
+
+.main-top{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+
+}
+
+.main-bottom{
+    display: flex;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    
 }
 
 .main-content {
