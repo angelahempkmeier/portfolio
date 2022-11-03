@@ -102,11 +102,10 @@ body {
 .main-top{
     display: flex;
     justify-content: space-evenly;
-
-
 }
 
 .main-bottom{
+    /* talvez adicionar apenas com js */
     display: flex;
     padding: 20px;
     font-size: 14px;
