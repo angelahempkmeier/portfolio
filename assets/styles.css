@@ -99,8 +99,23 @@ body {
 
 .main-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: nowrap;
 }
 
+.main-content-content {
+    font-size: 14px;
+}
+
+.main-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 
 .about-me {
     height: 400px;
