@@ -11,6 +11,9 @@
 body {
     background-image: url("daisies.png");
     width: 100%;
+    max-width: 992px;
+    margin: auto;
+    min-width: 320px;
 }
 
 
@@ -141,10 +144,23 @@ body {
     width: 50%;
 }
 
+/*ABOUT ME*/
+
 .about-me {
-    height: 400px;
+    height: 600px;
     background-color: #846F5E;
 }
+
+.about-me-content{
+    padding: 20px;   
+}
+
+.about-me-content h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
 
 .projects {
     height: 400px;
@@ -167,3 +183,13 @@ body {
     background-color: #D8D4C8;
 }
 
+/*mobile*/
+@media(max-width: 992px){
+    .main-bottom{
+        display: none;
+    }
+
+    .about-me{
+        height: 800px;
+    }
+}
